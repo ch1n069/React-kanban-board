@@ -7,12 +7,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div className="h-full w-full bg-neutral-900 text-50">
-        <Board />
-      </div>
-      ;
-    </>
+    <div className="h-screen w-screen bg-neutral-900 text-50">
+      <Board />
+    </div>
   );
 }
 
